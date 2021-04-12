@@ -1,0 +1,55 @@
+.home {
+    margin-top: 50px;
+}
+
+#box {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.boxPost {
+
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+.boxPost > div {
+    margin-left: 20px;
+}
+
+#edit {
+    margin: 0 10px 0 10px;
+}
+
+#add {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#createBox {
+    
+     position: relative;
+    width: 700px;
+    height: 600px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: auto;   
+}
+
+#inputBox {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+#inputBox input {
+    margin: 20px 0 20px ;
+}
